@@ -87,7 +87,7 @@ namespace MediaContainer.Controllers
             }
         }
         //UPDATE
-        [HttpPost]
+        [HttpPut]
         [Route("~/media/playlist")]
         public async Task<IHttpActionResult> UpdatePlaylists(List<Playlist> playlists)
         {
